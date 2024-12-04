@@ -1,5 +1,19 @@
-First Design
 ![image](https://github.com/user-attachments/assets/28218466-6b8b-4cac-baf2-3391dea627b4)
+
+
+| Proposed Solution       | Pros                                                                 | Cons                                                    | Cost  | Complexity | Potential impact on system performance                                      |
+|-------------------------|----------------------------------------------------------------------|---------------------------------------------------------|-------|------------|--------------------------------------------------------------------------------|
+| **Adding More Servers** | - Increases system capacity.                                         | - Higher cost due to server purchases                   | High  | Medium     | Reduces individual server load and improves response time.                   |
+|                         | - Reduces load on individual servers.                                | - Increased complexity in load balancing.               |       |            |                                                                                |
+|                         | - Scalable for future traffic growth.                                | - More servers to monitor and maintain.                 |       |            |                                                                                |
+| **Optimization and Caching** | - Reduces system load by storing frequent services and responses in memory. | - Cache monitoring complexity.                           | Medium| High       | Reduces load on servers, improves response times.                            |
+|                         | - Improves response times for heavy operations.                      |                                                         |       |            |                                                                                |
+| **Security Measures**   | - Protects against malicious attacks like Denial of Service.         | - Potential cost for advanced security services and licenses. | Medium| High       | May add slight latency but helps maintain system integrity and uptime.       |
+|                         | - Ensures service availability during traffic spikes.                | - Requires setup and monitoring.                         |       |            |                                                                                |
+
+
+
+
 
 
 
