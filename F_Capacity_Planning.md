@@ -29,3 +29,17 @@ Both the primary switches and backup switches are connected to the internal fire
 
 Redundant Firewalls:
 Multiple internal firewalls, which adds an extra layer of security while maintaining redundancy.
+
+
+Core Layer:
+Includes 2 Multilayer Switches, 2 Perimeter Firewalls, and connections to external ISPs (ISP_1 and ISP_2).
+Handles high-speed interconnectivity and external access.
+
+Distribution and Access Layer:
+Internal Firewalls for securing communication.
+Primary and Backup Switches for redundancy.
+Links the core layer with the access layer.
+Access Layer:
+
+Features load balancers and multiple servers (Server0 to Server8).
+Connects end-user PCs (PC0 to PC8) to the network.
