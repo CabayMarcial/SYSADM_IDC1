@@ -39,7 +39,7 @@ Handles high-speed interconnectivity and external access.
 
 Distribution and Access Layer:
 There are 3 Internal Firewalls for securing communication.
-6 Switches that is primary and backup switches for redundancy.
+6 Switches that is divided to 3 primary and 3 backup switches for redundancy.
 Links the core layer with the access layer.
 Access Layer:
 Features load balancers and multiple servers (Server0 to Server8).
